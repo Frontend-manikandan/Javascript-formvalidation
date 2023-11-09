@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--Login page-->
+    <div class="container">
+        <form action="Todo.html" id="form">
+            <h1>Login Form</h1>
+            <div class="login-group">
+                <label for="username"><i class="fa fa-envelope"></i>Username</label>
+                <input type="text" id="username" placeholder="username" name="username">
+                <div class="errorShow"></div>
+            </div>
+            <div class="login-group">
+                <label for="username"><i class="fa fa-lock" style="font-size:24px"></i>Password</label>
+                <input type="password" id="password" placeholder="password" name="password">
+                <div class="errorShow"></div>
+            </div>
+
+            <input type="submit" value="Login">
+
+            <p><i class='far fa-thumbs-down' style='font-size:24px'></i>Create a new account ,If you not have an account?</p><br>
+
+            <button type="submit"><a href="page 2.html" id="signed">Signup</a></button>
+        </form>
+    </div>
+    <!-- //external script file -->
+    <script src="./script.js"></script>
+</body>
+</html>
+
